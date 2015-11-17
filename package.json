@@ -1,0 +1,33 @@
+{
+  "name": "less-plugin-ejs-import",
+  "version": "1.0.0",
+  "description": "ejs template import plugin for less.js",
+  "homepage": "http://github.com/purposeindustries/less-plugin-ejs-import",
+  "bugs": {
+    "url": "http://github.com/purposeindustries/less-plugin-ejs-import/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purposeindustries/less-plugin-ejs-import.git"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=0.4.2"
+  },
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "promise": "~7.0.1",
+    "resolve": "~1.1.6"
+  },
+  "devDependencies": {
+    "npm-import-plugin-test": "1.0.1",
+    "less": "~2.5.1"
+  },
+  "keywords": [
+    "less plugins",
+    "npm import",
+    "less prefixes"
+  ],
+  "scripts": {}
+}
